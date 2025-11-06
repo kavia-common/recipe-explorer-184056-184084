@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Recipe Explorer</string>
+    <string name="hint_search">Search recipes or ingredients</string>
+    <string name="empty_search">No recipes found. Try a different search.</string>
+    <string name="empty_favorites">No favorites yet. Tap the heart on a recipe to save it.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="cd_favorite">Mark as favorite</string>
+    <string name="cd_unfavorite">Unmark favorite</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_search_icon">Search</string>
+    <string name="section_ingredients">Ingredients</string>
+    <string name="section_steps">Steps</string>
+    <string name="time_minutes_format">%1$d min</string>
+</resources>
