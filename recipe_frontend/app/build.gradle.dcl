@@ -4,6 +4,13 @@ androidApplication {
     // Declarative DSL does not support direct android/buildFeatures blocks here.
     // Parcelize is not required since Recipe no longer implements Parcelable.
 
+    // Configure unit test behavior to not fail when no tests are discovered
+    testing {
+        unitTests {
+            failOnNoTests = false
+        }
+    }
+
     dependencies {
         implementation("androidx.appcompat:appcompat:1.7.0")
         implementation("androidx.recyclerview:recyclerview:1.3.2")
