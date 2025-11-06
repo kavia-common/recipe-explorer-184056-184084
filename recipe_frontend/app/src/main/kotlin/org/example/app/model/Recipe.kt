@@ -1,13 +1,10 @@
 package org.example.app.model
 
-import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
-
 /**
  * PUBLIC_INTERFACE
  * A simple data model representing a Recipe with essential fields.
+ * Note: Parcelable is not required for current navigation; data passed via IDs.
  */
-@Parcelize
 data class Recipe(
     val id: String,
     val title: String,
@@ -16,4 +13,4 @@ data class Recipe(
     val ingredients: List<String>,
     val steps: List<String>,
     val timeMinutes: Int,
-) : Parcelable
+)
